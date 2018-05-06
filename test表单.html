@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <form action="/getInfo" method="GET">
+            <div class="username">
+                <label for="username">姓名：</label>
+                <input id="username" type="text" name="username" placeholder="用户名">
+            </div>
+            <div class="password">
+                <label for="password">密码：</label>
+                <input id="password" type="password" name="password" placeholder="******">
+            </div>
+            <div class="sex">
+                <label for="sex">性别：</label>
+                <input type="radio" name="sex" id="sex" value="男" checked> 男
+                <input type="radio" name="sex" id="sex" value="女"> 女
+            </div>
+            <div class="sex1">
+                <label for="sex1">取向：</label>
+                <input type="radio" name="sex1" id="sex1" value="男"> 男
+                <input type="radio" name="sex1" id="sex1" value="女" checked> 女
+            </div>
+            <div class="hobby">
+                <label>爱好：</label>
+                <input type="checkbox" name="hobby" value="dota"> dota
+                <input type="checkbox" name="hobby" value="tourism" checked> 旅游
+                <input type="checkbox" name="hobby" value="pet" checked> 宠物
+            </div>
+            <div class="texrarea">
+                <label for="article">评论：</label>
+                <textarea name="article"  cols="60" rows="10" placeholder="ddd">
+                </textarea>
+            </div>
+            <div class="select">
+                <label for="mycar">我的car：</label>
+                <select name="city" id="city">
+                    <option value="SAAB" selected>萨博</option>
+                    <option value="DongFong">东风</option>
+                    <option value="Ford">福特</option>
+                </select>
+            </div>
+            <div class="submit">
+                <button>提交</button>
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+</html>
